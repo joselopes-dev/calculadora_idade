@@ -9,7 +9,7 @@ function populateYearSelect(selectElement, startYear, endYear) {
 }
 
 // Populando o select de anoAtual (2024 até 2050)
-populateYearSelect(document.getElementById('anoAtual'), 2024, 2050);
+populateYearSelect(document.getElementById('anoAtual'), 2050, 2024);
 
 // Populando o select de dataNasc (2024 até 1900)
 populateYearSelect(document.getElementById('dataNasc'), 2024, 1900);
