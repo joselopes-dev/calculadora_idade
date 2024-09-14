@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Idade</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Idade</h1>
+        <form id="ageForm">
+            <label for="anoAtual">Insira o ano atual:</label>
+            <select id="anoAtual" name="anoAtual" required></select>
+
+            <label for="dataNasc">Informe sua data de nascimento:</label>
+            <select id="dataNasc" name="dataNasc" required></select>
+
+            <button type="submit">Calcular Idade</button>
+        </form>
+        <p id="resultado"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
